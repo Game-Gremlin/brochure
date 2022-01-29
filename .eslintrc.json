@@ -1,3 +1,6 @@
 {
-  "extends": ["next", "next/core-web-vitals", "prettier"]
+  "extends": ["next", "next/core-web-vitals", "prettier"],
+  "rules": {
+    "@next/next/no-img-element": "off" // We currently not using next/image because it isn't supported with SSG mode
+  }
 }
